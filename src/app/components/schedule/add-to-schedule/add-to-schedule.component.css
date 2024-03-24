@@ -1,0 +1,55 @@
+.container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  width: 100%;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container form input {
+  height: 40px;
+
+  padding: 5px;
+
+  border: 1px solid #dedede;
+  border-radius: 5px;
+
+  background-color: #F6F6F6;
+}
+
+.container form label {
+  margin-bottom: 5px;
+}
+
+.addBtn {
+  height: 40px;
+
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  margin-bottom: 5px;
+}
+
+.cancelBtn {
+  height: 40px;
+
+  background-color: #b53f3f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
